@@ -50,4 +50,14 @@ while opcion < 6:
         n1 = int(input("Introduce la diagonal menor: "))
         n2 = int(input("Introduce la diagonal mayor: "))
         print(f"El resultado de la operación es: {(n1*n2)/2}")
-                
+        
+	# VERSIÓN 6
+    if opcion == 5:
+        print("-----ÁREA DEL TRAPECIO-----")
+        n1 = int(input("Introduce la base menor: "))
+        n2 = int(input("Introduce la base mayor: "))
+        n3 = int(input("Introduce la altura: "))
+        print(f"El resultado de la operación es: {((n1+n2)/2)*n3}")
+    
+    if opcion == 6:
+        print("SALIENDO DEL PROGRAMA...")        
