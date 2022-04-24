@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 23 23:10:03 2022
+
+@author: Jose
+"""
+                    # VERSIÓN 1
+import math
+math.pi
+
+opcion = 0
+n1 = 0
+n2 = 0
+n3 = 0
+
+while opcion < 6:
+    print("------------CALCULADORA-------------")
+    
+    print("-1. ÁREA DEL CUADRADO")
+    print("-2. ÁREA DEL TRIÁNGULO")
+    print("-3. ÁREA DEL CÍRCULO")
+    print("-4. ÁREA DEL ROMBO")
+    print("-5. ÁREA DEL TRAPECIO")
+    print("-6. SALIR")
+        
+    opcion= int(input("Elige una opción del 1 al 6: "))	
+    
+	# VERSIÓN 2
+    if opcion == 1:
+        print("-----ÁREA DEL CUADRADO-----")
+        n1 = int(input("Introduce el lado: "))
+        print(f"El resultado de la operación es: {n1*n1} metros cuadrados")
+        
