@@ -60,4 +60,5 @@ while opcion < 6:
         print(f"El resultado de la operación es: {((n1+n2)/2)*n3}")
     
     if opcion == 6:
-        print("SALIENDO DEL PROGRAMA...")        
+        print("SALIENDO DEL PROGRAMA...")       
+	print("Y HASTA LUEGO, RECUERDA TOMAR AGUA")
