@@ -30,4 +30,12 @@ while opcion < 6:
         print("-----ÁREA DEL CUADRADO-----")
         n1 = int(input("Introduce el lado: "))
         print(f"El resultado de la operación es: {n1*n1} metros cuadrados")
+
+	# VERSIÓN 3
+    if opcion == 2: 
+        print("-----ÁREA DEL TRIÁNGULO-----")
+        n1 = int(input("Introduce la base: "))
+        n2 = int(input("Introduce la altura: "))
+        print(f"El resultado de la operación es: {(n1*n2)/2}")
+
         
