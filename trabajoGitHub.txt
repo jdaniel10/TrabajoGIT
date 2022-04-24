@@ -44,4 +44,10 @@ while opcion < 6:
         n1 = int(input("Introduce el radio: "))
         print(f"El resultado de la operación es: {math.pi*n1^2}")
 
-        
+        # VERSIÓN 5
+    if opcion == 4:
+        print("-----ÁREA DEL ROMBO-----")
+        n1 = int(input("Introduce la diagonal menor: "))
+        n2 = int(input("Introduce la diagonal mayor: "))
+        print(f"El resultado de la operación es: {(n1*n2)/2}")
+                
