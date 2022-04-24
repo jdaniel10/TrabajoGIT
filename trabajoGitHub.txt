@@ -38,4 +38,10 @@ while opcion < 6:
         n2 = int(input("Introduce la altura: "))
         print(f"El resultado de la operación es: {(n1*n2)/2}")
 
+        # VERSIÓN 4
+    if opcion == 3:
+        print("-----ÁREA DEL CÍRCULO-----")
+        n1 = int(input("Introduce el radio: "))
+        print(f"El resultado de la operación es: {math.pi*n1^2}")
+
         
